@@ -1,4 +1,4 @@
-package org.example.train.common.aspect;
+package org.example.member.common.aspect;
 
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.support.spring.PropertyPreFilters;

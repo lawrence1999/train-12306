@@ -1,5 +1,6 @@
-package org.example.train;
+package org.example.member;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -13,6 +14,7 @@ import org.springframework.core.env.Environment;
  * Author: lawrence
  */
 @SpringBootApplication
+@MapperScan("org.example.member.mapper")
 public class MemberApplication {
     public static final Logger log = LoggerFactory.getLogger(MemberApplication.class);
     public static void main(String[] args) {

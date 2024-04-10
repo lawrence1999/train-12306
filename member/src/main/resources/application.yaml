@@ -2,3 +2,15 @@ server:
   port: 8001
   servlet:
     context-path: /member
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/train
+    username: root
+    password: uStudioDatabaseiQV4L
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:/mapper/**/*.xml
+
+logging:
+  level:
+    org.example.member.mapper: trace
